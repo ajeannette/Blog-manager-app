@@ -45,7 +45,7 @@ const cancelEdit = (noteDiv) => {
     const editButton = noteDiv.querySelector('button.edit');
     editButton.innerHTML = 'Edit note';
     const deleteButton = noteDiv.querySelector('button.delete');
-    deleteButton.innerHTML = 'Delete note'
+    deleteButton.innerHTML = 'Delete note';
     const note = notes.find(note => note.id == noteDiv.id);
     titleP.innerHTML = note.title;
     bodyP.innerHTML - note.body;
