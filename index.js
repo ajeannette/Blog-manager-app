@@ -71,7 +71,7 @@ const editNote = (noteDiv, editSave = false) => {
         const note = notes.find(note => note.id == noteDiv.id);
         note.title = titleP.innerText.trim();
         note.body = bodyP.innerText.trim();
-        deleteButton.innerHTML = 'Delete note;'
+        deleteButton.innerHTML = 'Delete note';
         editButton.innerHTML = 'Edit note';
         titleP.contentEditable = false;
         bodyP.contentEditable = false;
